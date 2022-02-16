@@ -1,0 +1,45 @@
+.title{
+    text-align: center;
+    margin:20px;
+}
+
+.triangle{
+    position:relative;
+    height: 650px;
+    clip-path: polygon(50% 0, 20% 100%, 80% 100%);
+}
+
+.triangle div {
+    
+    height:100px;
+    width:100%;
+    margin:0 auto 10px;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+
+}
+
+.one{
+    background: #ea1b07;
+}
+
+.two{
+    background:#f4b600;
+}
+
+.three{
+    background:#f9e029;
+}
+
+.four{
+    background:#049dfc;
+}
+
+.five{
+    background: #a77643;
+}
+
+.six{
+    background:#5cd533;
+}
