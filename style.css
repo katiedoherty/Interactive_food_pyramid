@@ -13,7 +13,6 @@
     
     height:100px;
     width:100%;
-    margin:0 auto 10px;
     color: white;
     line-height: 100px;
     text-align: center;
@@ -22,24 +21,30 @@
 
 .one{
     background: #ea1b07;
+    margin:0 auto 10px;
 }
 
 .two{
     background:#f4b600;
+    margin:0 auto 10px;
 }
 
 .three{
     background:#f9e029;
+    margin:0 auto;
 }
 
 .four{
     background:#049dfc;
+    margin:0 auto;
 }
 
 .five{
     background: #a77643;
+    margin:0 auto;
 }
 
 .six{
     background:#5cd533;
+    margin:0 auto;
 }
