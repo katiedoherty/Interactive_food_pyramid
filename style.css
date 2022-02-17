@@ -19,6 +19,7 @@
 
 }
 
+
 .one{
     background: #ea1b07;
     margin:0 auto 10px;
@@ -55,6 +56,8 @@
     font-size: 30px;
 }
 
+
+
 .buttons {
     height: 25px;
   width: 25px;
@@ -67,10 +70,23 @@
   
   }
 
-  .plus-button {
-    display: none;
-  }
-      
-  .one:hover + .plus-button {
-    display: block;
-  }
+
+.plus-button {
+    visibility: hidden;
+}
+
+.minusbutton {
+    visibility: hidden;
+}
+
+
+.triangle div:hover .plus-button {
+ visibility: visible;
+}
+
+.triangle div:hover .minusbutton {
+    visibility: visible;
+   }
+
+
+  
